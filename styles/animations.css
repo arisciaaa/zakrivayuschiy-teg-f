@@ -10,7 +10,7 @@
 
 */
 
-@keyframes like-icon-button {
+@keyframes like-icon-button-scale-change {
   from {
     transform: scale(1);
   }
@@ -20,7 +20,7 @@
   }
 }
 
-@keyframes sparkles {
+@keyframes like-icon-button-sparkles-opacity-change {
   from {
     opacity: 0;
   }
