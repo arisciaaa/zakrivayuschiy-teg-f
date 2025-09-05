@@ -42,7 +42,7 @@
 }
 
 .header__title {
-  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);; 
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
 }
 
 .header__subtitle {
@@ -276,7 +276,6 @@ dialog[open]::backdrop {
   color: var(--main-color, #000);
   text-transform: uppercase;
   background-color: var(--additional-color, #fff);
-  background-color: var(--additional-color, #fff);
   transition: var(--button-focus-transition, box-shadow 0.3s ease);
   inline-size: 100%;
 }
@@ -326,7 +325,7 @@ dialog[open]::backdrop {
 .card__like-button .button__text,
 .save-button .button__text,
 .dialog__save-button-confirm span {
-  color: var(--btn-text-color, #fff);     
+  color: var(--btn-text-color, #fff);
   mix-blend-mode: difference;
 }
 
