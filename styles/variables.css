@@ -1,1 +1,52 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --basic-font: 'Inter-Variable';
+  --accent-font: 'PressStart2P';
+
+  --font-weight-card-title: 715;
+  --font-weight-card-description: 410;
+  --font-size-card-text: 18px;
+  --font-size-buttons: 14px;
+  --font-size-image-label: 14px;
+
+  --gap-main-part: 52px;
+  --card-gap-big-screen: 53px;
+  --card-gap-small-screen: 51px;
+
+  --main-color: #000;
+  --additional-color: #fff;
+  --label-stroke-color: #fff;
+  --btn-text-color: #fff;
+  --border-style: 2px solid currentColor;
+
+
+  --button-focus-transition: box-shadow 0.3s ease;
+
+  --background-gradient1: 
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      rgba(211 211 211 / 0) 2px 4px
+    );
+  --background-gradient2: 
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0 2px,
+      rgba(211 211 211 / 0) 2px 4px
+    )
+  ;
+  --background-gradient3: 
+    linear-gradient(
+      #e7e7e7 0.01%,
+      #1a1a1a
+    )
+  ;
+  --backdrop-color: rgba(0, 0, 0, 0.75);
+
+  --block-width: clamp(375px, calc(375px + (325 * ((100vw - 375px) / 1065))), 700px);
+
+  --heart-button-contour-color: #000;
+  --heart-button-animation-fill-color: #F00;
+  --heart-button-hover-color: #000;
+}
