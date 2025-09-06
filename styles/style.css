@@ -161,11 +161,15 @@
 }
 
 .button {
+  position: relative;
   border: var(--border-style, 2px solid currentColor);
+  overflow: hidden;
+  color: var(--main-color, #000);
   font-family: var(--accent-font, 'PressStart2P'), 'Arial', sans-serif;
   font-size: var(--font-size-buttons, 14px);
   line-height: 90%;
   background-color: var(--additional-color, #fff);
+  transition: var(--button-focus-transition, box-shadow 0.3s ease);
 }
 
 .button:hover {
@@ -238,26 +242,16 @@
 }
 
 .card__like-button {
-  position: relative;
   padding: 10.6px 0;
-  overflow: hidden;
-  color: var(--main-color, #000);
-  background-color: var(--additional-color, #fff);
-  transition: var(--button-focus-transition, box-shadow 0.3s ease);
   inline-size: 130px;
 }
 
 .save-button {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 9px;
   padding: 16px 20px;
-  overflow: hidden;
-  color: var(--main-color, #000);
-  background-color: var(--additional-color, #fff);
-  transition: var(--button-focus-transition, box-shadow 0.3s ease);
   min-inline-size: 306px;
   max-inline-size: 335px;
 }
@@ -304,18 +298,13 @@ dialog[open]::backdrop {
 }
 
 .dialog__save-button-confirm {
-  position: relative;
   grid-column: 1 / -1;
   padding: 12px 0;
-  overflow: hidden;
-  color: var(--main-color, #000);
-  text-transform: uppercase;
-  background-color: var(--additional-color, #fff);
-  transition: var(--button-focus-transition, box-shadow 0.3s ease);
   inline-size: 100%;
 }
 
 .dialog__save-button-confirm-text {
+  text-transform: uppercase;
   position: relative;
   z-index: 2;
   color: var(--btn-text-color, #fff);
